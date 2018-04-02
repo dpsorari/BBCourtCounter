@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/smoothWhite"
+    tools:context="com.chaos.bbCourtCounter.MainActivity"
+    android:layout_marginTop="50dp"
+    android:layout_marginBottom="100dp"
+
+    >
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="30dp"
+        android:hint="Initials of Team A"
+
+        android:id="@+id/team_a_name"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:hint="Initials of Team B"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="50dp"
+
+        android:id="@+id/team_b_name"
+
+        />
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START MATCH"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/smoothWhite"
+        android:textSize="20dp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/start_match"
+        android:layout_marginRight="16dp"
+
+        />
+
+
+
+</LinearLayout>
+
